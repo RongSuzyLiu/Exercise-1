@@ -1,0 +1,38 @@
+.left, .right {
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.top-container {
+  position: relative;
+}
+
+.left {
+  left: 20px;
+  position: absolute;
+}
+
+.right {
+  position: absolute;
+  right: 20px;
+}
+
+.top-container a {
+  color: black;
+  margin: 10px;
+  text-decoration: none;
+}
+
+.top-container a:hover {
+  text-decoration: underline;
+}
+
+.middle-container {
+  position: relative;
+  text-align: center;
+  top: 200px;
+}
+
+img {
+  width: 300px;
+}
